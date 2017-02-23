@@ -1,0 +1,17 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+	text-decoration: none;
+}
+#container{overflow: hidden; position: relative;	top: 100px;	width: 500px;	height: 400px;	left: 500px;	z-index: 1;}
+#list{ position: absolute;	width: 3500px;	height: 400px;	z-index: 2;	left: -500px;}
+#list img{  float: left;	width: 500px;	height: 400px;}
+.arrow{	position: absolute;	cursor: pointer;top: 180px;	z-index: 2;	background-color: rgba(0,0,0,.3);	color: blue;	width: 40px;    height: 40px;    line-height: 39px;    text-align: center;    font-size: 36px;    font-weight: bold;    display: none;}
+#container:hover .arrow{display: block;}
+.arrow:hover{background: rgba(0,0,0,.7);}
+#pre{left: 20px;}
+#next{right: 20px;}
+#buttons {position: absolute;height: 10px;width: 100px;bottom: 20px;left: 220px;z-index: 2;}
+#buttons span{cursor: pointer;float: left;border:1px solid #fff;width: 10px;height: 10px; border-radius: 50%;background-color: #333 ;margin-right: 5px;}
+#buttons .on{background-color: orangered;}
